@@ -1,4 +1,5 @@
-# satellaview--linux-launch-script
+# satellaviewplus-linux-launch-script
+### This is NOT affiliated with any projects mentioned, please review all code in the shell file before executing!
 A launch script created specifically for launching Satellaview + (https://satellaview-plus.com) and BS-X in SuperSNES9x.
 
 # Currently supports
