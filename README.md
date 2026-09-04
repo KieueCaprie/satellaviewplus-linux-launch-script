@@ -2,7 +2,7 @@
 A launch script created specifically for launching Satellaview + (https://satellaview-plus.com) and BS-X in SuperSNES9x.
 
 # Currently supports
-- Linux - ArchLinux (tested on EndeavourOS), SteamOS
+- Linux - Tested on ArchLinux (tested on EndeavourOS), and SteamOS. This will probably work on most, if not all, popular distros.
 
 # How to use
 1. Download the repository by using ```git clone https://github.com/KieueCaprie/satellaview--linux-launch-script.git``` or by clicking on Code in the main Github page and clicking "Download ZIP".
