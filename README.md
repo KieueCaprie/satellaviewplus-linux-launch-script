@@ -22,5 +22,4 @@ A launch script created specifically for launching Satellaview + (https://satell
 **Note**: Satellaview+ will delete any foreign objects on initial setup. I do not know why it does this but it seems to not do this with every download from then on.
 
 TODO:
-- Make the script wait until the satdata folder actually appears before copying the BS-X.sfc file.
 - Figure out how to get the most up-to-date Linux client for Satellaview+ in case of future updates. Current script downloads V5.
