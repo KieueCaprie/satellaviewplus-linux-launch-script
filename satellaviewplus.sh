@@ -6,7 +6,7 @@ if [ -e "$SCRIPT_DIR"/Satellaview+*.appimage ]
 then
     echo "Satellaview+.appimage exists. Continuing."
 else
-    echo "Satellaview+.appimage does NOT exist. Grabbing... (A password may be prompted.)"
+    echo "Satellaview+.appimage does NOT exist. Grabbing..."
     # TODO: Is there a way to automate this? It'll get tedious real fast if they ever update the client...
     curl "https://satellaview-plus.com/client/linux-x64/Satellaview+_V5.AppImage" --output "$SCRIPT_DIR"/Satellaview+.appimage
     echo "Marking appimage as executable (chmod +x Satellaview+.appimage)"
@@ -37,8 +37,8 @@ fi
 # Satellaview+ - Needs a few moments to download satdata
 echo "Booting up Satellaview+..."
 # Original boot, use if launching directly as opposed to a terminal or 3rd party launcher
-# ./Satellaview+_V5.appimage
-"$SCRIPT_DIR"/Satellaview+_V5.appimage &
+# ./Satellaview+.appimage
+"$SCRIPT_DIR"/Satellaview+.appimage &
 
 # Wait until bs-x.sfc is available.
 # If setup went correctly, Satellaview+ will download the RetroArch version, which includes the vaunted bs-x.sfc that's included into the satdata.
