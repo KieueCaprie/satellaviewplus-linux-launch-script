@@ -12,7 +12,6 @@ else
     echo "Marking appimage as executable (chmod +x Satellaview+.appimage)"
     chmod +x Satellaview+.appimage
 fi
-sleep 5
 # Check for SuperSNES9x
 if [ -e "$SCRIPT_DIR"/SuperSNES9x.appimage ]
 then
@@ -23,7 +22,6 @@ else
     echo "Marking appimage as executable (chmod +x SuperSNES9x.appimage)"
     chmod +x SuperSNES9x.appimage
 fi
-sleep 5
 # Satellaview+ - Needs a few moments to download satdata
 echo "Booting up Satellaview+..."
 # Original boot, use if launching directly as opposed to a terminal or 3rd party launcher
