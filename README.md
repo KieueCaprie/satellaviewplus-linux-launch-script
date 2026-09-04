@@ -1,6 +1,9 @@
 # satellaview--linux-launch-script
 A launch script created specifically for launching Satellaview + (https://satellaview-plus.com) and BS-X in SuperSNES9x.
 
+# Currently supports
+- Linux - ArchLinux (tested on EndeavourOS), SteamOS
+
 # How to use
 1. Download the repository by using ```git clone https://github.com/KieueCaprie/satellaview--linux-launch-script.git``` or by clicking on Code in the main Github page and clicking "Download ZIP".
 2. If you've downloaded the zip, remember to place it in an easily accessible spot.
@@ -15,3 +18,9 @@ A launch script created specifically for launching Satellaview + (https://satell
    - (Optional but good QoL for handheld devices) Check "Exit on Close".
 3. Navigate to Download SatData, then click Download Data. Note that it may take a while to receive SatData the first time.
 4. Keep the window open while using BS-X to receive up-to-date satdata.
+
+**Note**: Satellaview+ will delete any foreign objects on initial setup. I do not know why it does this but it seems to not do this with every download from then on.
+
+TODO:
+- Make the script wait until the satdata folder actually appears before copying the BS-X.sfc file.
+- Figure out how to get the most up-to-date Linux client for Satellaview+ in case of future updates. Current script downloads V5.
